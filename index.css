@@ -1,0 +1,39 @@
+*{
+    margin: 0;
+    padding:0;
+}
+body{
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.answers{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    justify-content: space-between;
+}
+.ask{
+    border-bottom: 2px solid black;
+}
+.answer_no{
+    margin-left: 20px; 
+}
+.answer_yes,.answer_no{
+    width: 55px;
+    padding: 15px;
+    margin-top: 100px;
+    cursor: pointer;
+    color: brown;
+    border: none;
+    border-radius: 5px;
+    border-color: brown;
+}
+
+.answer_yes_container,.answer_no_container{
+    width: 55px;
+
+}
+
